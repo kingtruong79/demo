@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 Route::get('test', 'HomeControler@text');
 Route::get('viet', 'HomeController@index');
+Route::get('aaa', 'HomeController@test');
