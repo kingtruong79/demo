@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('test', 'HomeControler@text');
+Route::get('viet', 'HomeController@index');
